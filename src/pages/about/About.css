@@ -1,0 +1,204 @@
+.about-page {
+  background-color:rgb(81, 27, 161);
+  overflow: hidden;
+}
+
+.about-page .header{
+  display: flex;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  height: 575px;
+}
+
+.about-page .element1{
+  position: absolute; /* Position the image absolutely within the container */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: auto; 
+  margin-top: 530px;
+  z-index: 0;
+}
+
+.about-page .element2{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 58px;
+  z-index: 0;
+}
+
+.about-page .photo{
+  margin: 110px 20px 20px 10px;
+  z-index: 990;
+}
+
+.about-page .entry {
+  padding: 9rem 9rem;
+}
+
+.about-page .blue {
+  color: rgb(11, 189, 213);
+}
+
+.about-page .entry h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.about-page .entry .rank {
+  color:rgb(197, 238, 243);
+  font-size: 2.4rem;
+}
+
+/* Description */
+.about-page .description {
+  display: flex;
+  background-color: rgb(54, 0, 112);
+  padding: 4rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-page .description h2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+/* Skills */
+.about-page .skills {
+  display: flex;
+  background-color: rgb(81, 27, 161);
+  padding: 4rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-page .skills h2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.about-page .skills .caption-icon {
+  margin: 0.5rem;
+}
+
+.about-page .skills li {
+  font-size: 1.5rem;
+    color:  rgb(11, 189, 213);
+  margin: 0.5rem;
+}
+
+/* Offer */
+.about-page .offer {
+  background-color: rgb(54, 0, 112);
+  padding: 4rem 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-page .offer h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.about-page .offer h2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+/* Contact and Media */
+.about-page .contactAndMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 2rem;
+  box-shadow: 0 2px 5px
+}
+
+.about-page .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.about-page .social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-page .social-icons a:hover {
+  color: rgb(11, 189, 213);
+  transform: scale(1.2); 
+}
+
+@media screen and (max-width: 730px) {
+  .about-page .element2{
+    transform: scale(0.5); 
+      margin-top: -10px;
+      margin-right: -110px;
+  }
+
+  .about-page .element1{
+    transform: scale(0.5); 
+      margin-left: -80px;
+      margin-top: 570px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+
+  .about-page .header{
+    display: inline-block;
+    box-shadow: none
+  }
+
+  .about-page .entry {
+    margin-top: -10px;
+    padding: -3rem 1rem;
+  }
+
+  .about-page .entry h1 {
+    font-size: 2.5rem;
+    margin-bottom: -3rem;
+    margin-top: -75px;
+  }
+
+  .about-page .entry .rank {
+    font-size: 1.9rem;
+  }
+
+  .about-page .photo{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: -90px;
+    transform: scale(0.8); 
+  }
+
+  .about-page .email {
+    font-size: 1.1rem;
+  }
+}
+
+
+  @media screen and (max-width: 1240px) {
+    .about-page .entry {
+      padding: 9rem 4rem;
+    }
+  }
+
+    @media screen and (max-width: 1240px) {
+
+      .about-page .entry {
+        padding: 9rem 2rem;
+      }
+    }
+
+  

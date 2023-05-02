@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.feadb2a5.css",
+    "main.js": "/static/js/main.8bf9d307.js",
+    "static/media/games_promotion.mp4": "/static/media/games_promotion.3d0cee5b9bde052cb052.mp4",
+    "static/media/complexityJungleIcon.png": "/static/media/complexityJungleIcon.30b9437f1f1c27e9feab.png",
+    "static/media/myPhoto.png": "/static/media/myPhoto.7ccf7fc6ac329b9c76a6.png",
+    "static/media/home-image.png": "/static/media/home-image.af50798f5d2f5dd5a18a.png",
+    "static/media/vocabularyRaceIcon.png": "/static/media/vocabularyRaceIcon.72c539e9a091abe2d132.png",
+    "static/media/mathRaceIcon.png": "/static/media/mathRaceIcon.b6b3862e99ac425d63a9.png",
+    "static/media/manualSwampIcon.png": "/static/media/manualSwampIcon.19c25dcbf745c21a413c.png",
+    "static/media/scalabilityMountainIcon.png": "/static/media/scalabilityMountainIcon.6350739537bbc96cd0aa.png",
+    "static/media/circleRiskIcon.png": "/static/media/circleRiskIcon.0abc777e60d404f2ad6f.png",
+    "static/media/city-weather.png": "/static/media/city-weather.dcf1c63aee351f46b590.png",
+    "static/media/headerElement2.png": "/static/media/headerElement2.1ad644b89628bba84b73.png",
+    "static/media/riskyJumperIcon.png": "/static/media/riskyJumperIcon.9fc9260a2ed79fd0d170.png",
+    "index.html": "/index.html",
+    "main.feadb2a5.css.map": "/static/css/main.feadb2a5.css.map",
+    "main.8bf9d307.js.map": "/static/js/main.8bf9d307.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feadb2a5.css",
+    "static/js/main.8bf9d307.js"
+  ]
+}

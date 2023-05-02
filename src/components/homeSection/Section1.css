@@ -1,0 +1,94 @@
+.section1  {
+  background: rgb(81, 27, 161);
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  }
+
+  .section1 .homeImageElement {
+    position: absolute;
+    margin-top: 487px ;
+    left: 0;
+    width: 300px
+  }
+
+  .section1 .text {
+    color: white; 
+    width: 50%;
+    font-size: 35px;
+    flex-direction: column;
+    margin: 180px 150px 100px 100px;
+    z-index: 9998;
+  }
+
+  .section1 .text .name {
+    color: rgb(11, 189, 213);
+  }
+
+  .section1 .text .profession {
+    color: rgb(197, 238, 243);
+  }
+
+  .section1 .homeImage {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-items: flex-start;
+  }
+
+  .section1 .contactButton {
+    display: inline-block;
+    background-color: rgb(11, 189, 213);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .section1 .contactButton:hover {
+    background-color: rgb(10, 154, 173);
+  }
+  
+
+  @media screen and (max-width: 900px) {
+
+    .section1  {
+      height: 400px;
+      }
+      
+    .section1 .homeImageElement {
+      margin-top: 237px ;
+      width: 20px !important;
+      height: 20px;
+    }
+
+
+    .section1 .homeImage img {
+      width: 350px;
+    }
+
+    .section1 .text {
+      font-size: 26px;
+      margin: 100px 0px 0px 50px;
+  
+    }
+    
+  }
+
+
+  @media screen and (max-width: 700px) {
+
+    .section1 .homeImage img {
+      width: 250px;
+    }
+      
+    .section1 .text {
+      font-size: 20px;
+      margin: 110px 0px 0px 30px;
+    }
+
+  
+  }
+  
