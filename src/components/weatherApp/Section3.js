@@ -44,7 +44,7 @@ function Section3() {
             <p className="card-text">{weatherData.name}</p>
             <p className="card-text">{weatherData.sys.country}</p>
             <p className="card-text">
-              Temperatura:{" "}
+              Temperature:{" "}
               <span className="current-temp">{weatherData.main.temp}°C </span>
             </p>
           </>
@@ -53,12 +53,12 @@ function Section3() {
             <p className="card-text">-</p>
             <p className="card-text">-</p>
             <p className="card-text">
-              Temperatura: <span className="current-temp">--°C </span>
+              Temperature: <span className="current-temp">--°C </span>
             </p>
           </>
         )}
 
-        <button className="button">SEE MORE</button>
+        {/* <button className="button">SEE MORE</button> */}
       </div>
     </section>
   );

@@ -7,7 +7,6 @@ import ManualSwampIcon from "./assets/manualSwampIcon.png";
 import ScalabilityMountainIcon from "./assets/scalabilityMountainIcon.png";
 import MathRaceIcon from "./assets/mathRaceIcon.png";
 import VocabularyRaceIcon from "./assets/vocabularyRaceIcon.png";
-
 import "./Games.css";
 
 const riskyJumperAppStoreLink =
@@ -77,7 +76,7 @@ function GamesPage() {
 
             <AddGame
               type="web-game"
-              link="/Error_500"
+              link="/CorrectVocabulary"
               icon={VocabularyRaceIcon}
               title="Vocabulary Race"
               description="Choose the correct spelling of the word and win the race"

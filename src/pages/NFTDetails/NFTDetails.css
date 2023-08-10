@@ -1,0 +1,147 @@
+.nft-details-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .nft-details-page .details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 60px;
+    border-radius: 10px;
+    background-color: #dda9f1;
+    padding: 30px 0px 30px 0px;
+  }
+  
+  .nft-details-page .image {
+    padding: 20px;
+  }
+  
+  .nft-details-page .nft-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+  }
+  
+  .nft-details-page .nft-description {
+    max-width: 700px;
+    padding: 20px;
+  }
+  
+  .nft-details-page .name {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .nft-details-page .collection {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  
+  .nft-details-page .description {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  
+  .nft-details-page .exclusivity {
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .nft-details-page .author,
+  .nft-details-page .date {
+    font-size: 20px;
+  }
+  
+  .nft-details-page .buy-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #511ba1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nft-details-page .buy-button:hover {
+    background-color: #320d69;
+  }
+  
+  .nft-details-page .buy-button:focus {
+    outline: none;
+  }
+  
+  .nft-details-page .price {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 5px;
+    align-content: center
+  }
+  
+
+   .nft-details-page .buy-container {
+    display: flex;
+  }
+
+
+  .nft-details-page .owner {
+    font-size: 15px;
+    color:  #a661c2;
+    /* font-weight: bold; */
+  }
+  
+  .nft-details-page .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #511ba1;
+
+  }
+  
+  @media (max-width: 1280px) {
+    .nft-details-page .details {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 950px) {
+    .nft-details-page .nft-image {
+      width: 200px;
+      height: 200px;
+    }
+
+
+    .nft-details-page .nft-price {
+        font-size: 17px;
+      }
+
+  
+    .nft-details-page .name {
+      font-size: 18px;
+    }
+  
+    .nft-details-page .collection {
+      font-size: 15px;
+    }
+  
+    .nft-details-page .description,
+    .nft-details-page .exclusivity,
+    .nft-details-page .author,
+    .nft-details-page .date {
+      font-size: 12px;
+    }
+  
+    .nft-details-page .buy-button {
+      font-size: 12px;
+    }
+  
+    .nft-details-page .owner,
+    .nft-details-page .price {
+      font-size: 12px;
+    }
+  }
+  

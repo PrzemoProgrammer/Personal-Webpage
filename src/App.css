@@ -4,3 +4,8 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+
+html, body {
+  background-color: #511ba1; 
+  height: 100%;
+}

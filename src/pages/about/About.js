@@ -1,35 +1,26 @@
 import Navbar from "../../components/navbar/Navbar";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import GamesVideo from "../../components/games_video/Games_Video";
-import MyPhoto from "./assets/myPhoto.png";
-
-import HeaderElement from "./assets/headerElement.png";
-import headerElement2 from "./assets/headerElement2.png";
-
-import TypeScriptIcon from "./assets/typeScriptIcon.png";
-import Game2DIcon from "./assets/game2DIcon.png";
-import AndroidIcon from "./assets/androidIcon.png";
-import HTML5Icon from "./assets/HTML5Icon.png";
-import JavaScriptIcon from "./assets/javaScriptIcon.png";
-import MongoDBIcon from "./assets/mongoDBIcon.png";
-import NodeIcon from "./assets/nodeIcon.png";
-import ReactIcon from "./assets/reactIcon.png";
-import Phaser3Icon from "./assets/phaser3Icon.png";
-import CordovaIcon from "./assets/cordovaIcon.png";
-import CSS3Icon from "./assets/CSS3Icon.png";
-
 import {
   faInstagram,
   faFacebook,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import "./About.css";
+import skillsInformation from "./skills";
+import GamesVideo from "../../components/games_video/Games_Video";
+import MyPhoto from "./assets/myPhoto.png";
+import HeaderElement from "./assets/headerElement.png";
+import headerElement2 from "./assets/headerElement2.png";
+import describeElement from "./assets/describeElement.png";
 
 function AddIcon({ icon }) {
   return <img src={icon} alt={icon} className="caption-icon" />;
 }
 
 function AboutPage() {
+  const skills = skillsInformation;
+
   return (
     <div className="about-page">
       <Navbar />
@@ -37,127 +28,167 @@ function AboutPage() {
         <div className="element1">
           <AddIcon icon={HeaderElement} />
         </div>
-
         <div className="entry">
           <h1>
             Hi There,
-            <br></br>
-            I'm <span className="blue">Przemek Murawski</span>,<br></br>
-            <span className="rank">Full Stack Web Game Developer</span>
+            <br />
+            I'm <span className="blue">Przemek Murawski</span>,
+            <br />
+            <span className="rank">
+              Full Stack Web Game & Blockchain Developer
+            </span>
           </h1>
         </div>
-
         <div className="element2">
           <AddIcon icon={headerElement2} />
         </div>
-
         <div className="photo">
           <AddIcon icon={MyPhoto} />
         </div>
       </div>
-
-      <div className="description">
-        <h2>
-          I have been creating games for <span className="blue">two years</span>
-          . I created games for small and medium sized businesses.
-          <br></br>I also had a period when I was a{" "}
-          <span className="blue">graphic designer</span>.<br></br>
-          I’ll fully project manage your brief from start to finish.<br></br>I
-          provide a <span className="blue">high-quality product</span> that will
-          help take your <span className="blue">business</span> to the next
-          level.<br></br>
-          Properly <span className="blue">optimized</span> and{" "}
-          <span className="blue">secured</span>.
-        </h2>
+      <div className="descriptionPage">
+        <div className="description">
+          <h2>
+            I have <span className="blue"> three years of experience</span> in
+            game development. During my tenure, I have expertise in working with
+            both <span className="blue">Centralized Databases (CDB)</span> and{" "}
+            <span className="blue">Decentralized Databases (DDB)</span>
+            .
+            <br />
+            <br />I think <span className="blue">Web 3.0 </span>is the future
+            that will take over the internet, so I'm training my skills in{" "}
+            <span className="blue">Blockchain technology</span> .
+            <br />I created my own <span className="blue">NFT</span> and simple{" "}
+            <span className="blue">NFT game</span>.
+            <br />
+            <br />
+            Additionally, I have a background as a{" "}
+            <span className="blue">graphic designer</span>, enhancing my skill
+            set. I incorporate visually appealing elements into my game designs
+            for immersive user experiences.
+            <br />
+            <br />
+            As a child I played multiplayer games and was always curious about
+            how they work. I was wondering why some people are good at cheating
+            in games and how they both do it. When I delved into this topic, I
+            wanted to create my own game and that's how my adventure began.
+            <br />
+            <br />
+          </h2>
+        </div>
       </div>
+      <div className="skillsPage">
+        <div className="skills">
+          <h2>
+            <br />
+            <strong>I’m experienced in:</strong>
+            <br />
+            <br /> <em>Frontend:</em>
+            <br />
+            <ul>
+              {skills.map((skill, index) => (
+                <li key={index}>
+                  <i>{skill.name}</i>
+                  <br />
+                  {index === 6 && (
+                    <span className="white">
+                      {" "}
+                      <br />
+                      <em>Backend:</em>
+                    </span>
+                  )}
 
-      <div className="skills">
-        <h2>
-          <br></br>
-          <strong>I’m experienced in:</strong>
-          <br></br>
-          <li>
-            <i>HTML5</i>
-          </li>
-          <li>
-            <i>CSS3</i>
-          </li>
-          <li>
-            <i>JavaScript</i>
-          </li>
-          <li>
-            <i>TypeScript</i>
-          </li>
-          <li>
-            <i>Phaser3</i>
-          </li>
-          <li>
-            <i>Cordova</i>
-          </li>
-          <li>
-            <i>React</i>
-          </li>
-          <li>
-            <i>Node</i>
-          </li>
-          <li>
-            <i>MongoDB</i>
-          </li>
-          <li>
-            <i>Games 2D</i>
-          </li>
-          <br></br>
-          <AddIcon icon={HTML5Icon} />
-          <AddIcon icon={CSS3Icon} />
-          <AddIcon icon={JavaScriptIcon} />
-          <AddIcon icon={TypeScriptIcon} />
-          <AddIcon icon={ReactIcon} />
-          <AddIcon icon={NodeIcon} />
-          <AddIcon icon={MongoDBIcon} />
-          <AddIcon icon={Phaser3Icon} />
-          <AddIcon icon={CordovaIcon} />
-          <AddIcon icon={AndroidIcon} />
-          <AddIcon icon={Game2DIcon} />
-          <br></br>I can also create a game for the{" "}
-          <span className="blue">Android</span> platform.
-        </h2>
+                  {index === 10 && (
+                    <span className="white">
+                      {" "}
+                      <br />
+                      <em>Blockchain:</em>
+                    </span>
+                  )}
+
+                  {index === 13 && (
+                    <span className="white">
+                      {" "}
+                      <br />
+                      <em>Mobile application development:</em>
+                    </span>
+                  )}
+                </li>
+              ))}
+            </ul>
+            <br />
+            {skills.map((skill, index) => (
+              <AddIcon key={index} icon={skill.icon} />
+            ))}
+            <br />I can also create a game for the{" "}
+            <span className="blue">Android</span> platform using Apache Cordova.
+          </h2>
+        </div>
+        <div className="describeElement">
+          <AddIcon icon={describeElement} />
+        </div>
       </div>
-
       <div className="offer">
+        <h2>
+          I'll fully project manage your brief from start to finish, providing a{" "}
+          <span className="blue">high-quality product</span>. I optimize for
+          efficient performance and a seamless user interface, while
+          prioritizing <span className="blue">security</span> measures to
+          safeguard your business data.
+          <br />
+          <br />
+          Engage my services for a comprehensive game development solution
+          tailored to your <span className="blue">specific requirements</span>.
+          Together, we can create a product that exceeds your expectations,
+          positioning your <span className="blue">business</span> for{" "}
+          <span className="blue">success</span> in the competitive gaming
+          industry.
+        </h2>
+        <br />
         <h1>
           <span className="blue">Game can include:</span>
         </h1>
         <h2>
-          - animations<br></br>- sounds<br></br>- physics<br></br>- creative
-          ideas<br></br>- and more, depending on your request
+          - animations
+          <br />
+          - sounds
+          <br />
+          - physics
+          <br />
+          - creative ideas
+          <br />- and more, depending on your request
         </h2>
-        <br></br>
-        <br></br>
-
+        <br />
+        <br />
         <h1>
-          <span className="blue">What do you get?</span>
-          <br></br>
+          <span className="blue">You can expect:</span>
+          <br />
         </h1>
         <h2>
-          - the right price<br></br>- fast delivery time<br></br>- smoothness of
-          the game<br></br>- safe game<br></br>- comfortably
-          <br></br>- possibility of simple modification of game data
+          - competitive pricing
+          <br />
+          - timely delivery
+          <br />
+          - smooth gameplay experience
+          <br />
+          - security measures
+          <br />
+          - comfortably
+          <br />- easy modification of game data if needed
         </h2>
       </div>
-
       <div className="games-video">
         <GamesVideo />
       </div>
-
       <div className="contactAndMedia">
         <h2>
           <span className="blue">CONTACT</span>
-          <br></br>
-          <br></br>
+          <br />
+          <br />
         </h2>
         <h2 className="email">
           przemek.murawski.developer@gmail.com
-          <br></br>
+          <br />
         </h2>
         <div className="social-icons">
           <a

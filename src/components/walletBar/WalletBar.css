@@ -1,0 +1,84 @@
+.walletbar .wallet-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    background-color: #632fb1; 
+    border-radius: 8px;
+    padding: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .walletbar .wallet-bar p {
+    font-size: 16px;
+    font-weight: 500;
+    /* margin-right: 30px; */
+    color: #93ecec; 
+    font-weight: bold;
+  }
+
+  .walletbar .wallet-bar-container {
+    display:flex;
+    align-items: center;
+    /* transform: translateX(88%); */
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .walletbar .translated {
+    transform: translateX(83%);
+  }
+
+  .walletbar .noTranslated {
+    transform: translateX(0%);
+  }
+
+  .walletbar .icon {
+    margin-right: 15px;
+  }
+
+   .walletbar .game-icon:hover {
+    cursor: pointer; 
+  }
+  
+   .walletbar .document-icon:hover {
+    cursor: pointer; 
+  }
+  
+  .walletbar .wallet-bar button {
+    cursor: pointer;
+    background-color: #008cff;
+    color: #ffffff;
+    font-size: 14px; 
+    font-weight: 500;
+    border: none;
+    margin-right: 100px;
+    border-radius: 8px;
+    padding: 8px 16px; 
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .walletbar .wallet-bar button:hover {
+    background-color: #0071db;
+  }
+  
+  .walletbar .wallet-bar button:focus {
+    outline: none;
+  }
+  
+  .walletbar .wallet-bar button:active {
+    background-color: #0054b3;
+  }
+  
+
+  @media (max-width: 620px) {
+    .walletbar .translated {
+      transform: translateX(81%);
+    }
+  }
+
+  @media (max-width: 530px) {
+    .walletbar .translated {
+      transform: translateX(79%);
+    }
+  }

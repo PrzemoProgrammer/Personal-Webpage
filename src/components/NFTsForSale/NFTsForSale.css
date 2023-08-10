@@ -1,0 +1,125 @@
+.nfts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: #350e70;
+    margin: 20px 100px;
+    padding: 50px
+  }
+
+  .nfts-container .title-text {
+    color: rgb(11, 189, 213);
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* NFTs for sale */
+  .nfts-container .nfts-for-sale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    
+  }
+  
+  /* Individual NFT item */
+  .nfts-container .nft-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    background-color: #6534af;
+    margin: 10px;
+  }
+  
+  .nfts-container .nft-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* NFT image */
+  .nfts-container .nft-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .nfts-container .nft-name {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(215, 172, 228);
+  }
+
+  .nfts-container .nft-price {
+    color: rgb(184, 223, 235);
+  }
+
+  .nfts-container .price {
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .nfts-container .matic-image {
+   margin-left: 5px
+  }
+  
+  .nfts-container .nft-image-placeholder {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+
+    .nfts-container .title-text {
+      font-size: 27px;
+    }
+
+    .nfts-container .nft-item {
+      width: 150px;
+    }
+  
+    .nfts-container .nft-image {
+      height: 150px;
+    }
+    .nfts-container {
+
+      margin: 20px 50px;
+      padding: 50px
+    }
+  }
+
+  @media (max-width: 560px) {
+
+    .nfts-container .nft-price {
+      font-size: 13px;
+    }  
+
+    .nfts-container .matic-image {
+      width: 15px;
+      height: 15px;
+    }
+    
+    .nfts-container .title-text {
+      font-size: 25px;
+    }
+    .nfts-container .nft-item {
+      width: 120px;
+    }
+  
+    .nfts-container .nft-image {
+      height: 120px;
+    }
+
+  }
+  

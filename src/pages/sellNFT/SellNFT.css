@@ -1,0 +1,207 @@
+
+  .sell-nft-details-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .sell-nft-details-page .details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 60px;
+    border-radius: 10px;
+    background-color: #dda9f1;
+    padding: 30px 0px 30px 0px;
+  }
+  
+  .sell-nft-details-page .image {
+    padding: 20px;
+  }
+  
+  .sell-nft-details-page .nft-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+  }
+  
+  .sell-nft-details-page .nft-description {
+    max-width: 700px;
+    padding: 20px;
+  }
+  
+  .sell-nft-details-page .name {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .sell-nft-details-page .collection {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  
+  .sell-nft-details-page .description {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  
+  .sell-nft-details-page .exclusivity {
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .sell-nft-details-page .author,
+  .sell-nft-details-page .date {
+    font-size: 20px;
+  }
+  
+  .sell-nft-details-page .buy-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #511ba1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sell-nft-details-page .buy-button:hover {
+    background-color: #320d69;
+  }
+  
+  .sell-nft-details-page .buy-button:focus {
+    outline: none;
+  }
+  
+  .sell-nft-details-page .price {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 5px;
+    align-content: center
+  }
+  
+
+   .sell-nft-details-page .buy-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height:100%;
+  }
+
+
+  .sell-nft-details-page .owner {
+    font-size: 15px;
+    color:  #a661c2;
+  }
+  
+  .sell-nft-details-page .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #511ba1;
+
+  }
+
+  .sell-nft-details-page .text-input-container input::placeholder {
+    color: #645454; 
+    font-style: italic; 
+    font-size: 15px;
+
+  }
+
+  .sell-nft-details-page .text-input-container input {
+    font-size: 20px;
+    width: 120px; 
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    background-color: #c99adb;
+    text-align: center;
+  }
+
+  .sell-nft-details-page .text-input-container .price-currency {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .sell-nft-details-page .text-input-container input:focus {
+    outline: none;
+  }
+
+  .sell-nft-details-page .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .sell-nft-details-page .currency-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: 20px
+  }
+
+  .sell-nft-details-page .information {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #8f64a0;
+  }
+
+  @media (max-width: 1280px) {
+    .sell-nft-details-page .details {
+      justify-content: center;
+    }
+
+    .sell-nft-details-page .information {
+        font-size: 10px;
+      }
+  }
+  
+  @media (max-width: 950px) {
+    .sell-nft-details-page .nft-image {
+      width: 200px;
+      height: 200px;
+    }
+
+
+    .sell-nft-details-page .nft-price {
+        font-size: 17px;
+      }
+
+  
+    .sell-nft-details-page .name {
+      font-size: 18px;
+    }
+  
+    .sell-nft-details-page .collection {
+      font-size: 15px;
+    }
+  
+    .sell-nft-details-page .description,
+    .sell-nft-details-page .exclusivity,
+    .sell-nft-details-page .author,
+    .sell-nft-details-page .date {
+      font-size: 12px;
+    }
+  
+    .sell-nft-details-page .buy-button {
+      font-size: 12px;
+    }
+  
+    .sell-nft-details-page .owner,
+    .sell-nft-details-page .price {
+      font-size: 12px;
+    }
+
+    .sell-nft-details-page .text-input-container input::placeholder {
+        font-size: 16px;
+      }
+  }
+  

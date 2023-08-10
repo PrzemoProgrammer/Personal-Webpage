@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../logo/Logo";
-
 import "./Navbar.css";
 
 function AddNavLink({ link, text }) {
@@ -30,11 +29,9 @@ function Navbar() {
 
         <div className={`nav-items${menuOpen ? "-open" : ""}`}>
           <AddNavLink link="/" text="HOME" />
-
           <AddNavLink link="/Games" text="GAMES" />
-
           <AddNavLink link="/Apps" text="APPS" />
-
+          <AddNavLink link="/NFT" text="NFT" />
           <AddNavLink link="/About" text="ABOUT" />
         </div>
 
