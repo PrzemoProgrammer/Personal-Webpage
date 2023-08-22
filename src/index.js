@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import CorrectVocabulary from "./pages/games/CorrectVocabulary/CorrectVocabulary";
 import GamesPage from "./pages/games/Games";
+import WeatherApp from "./pages/weatherApp/WeatherApp";
 import AppsPage from "./pages/apps/Apps";
 import AboutPage from "./pages/about/About";
 import NFTsPage from "./pages/NFT/NFT";
@@ -26,7 +27,11 @@ const router = createBrowserRouter([
     element: <GamesPage />,
   },
   {
-    path: "Apps",
+    path: "WeatherApp",
+    element: <WeatherApp />,
+  },
+  {
+    path: "AppsPage",
     element: <AppsPage />,
   },
   {

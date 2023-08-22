@@ -26,7 +26,7 @@ const skills = [
   { name: "Express.js", icon: ExpressjsIcon },
   { name: "MongoDB", icon: MongoDBIcon },
   { name: "Socket.IO", icon: SocketioIcon },
-  { name: "Solidity (basics)", icon: SolidityIcon },
+  { name: "Solidity", icon: SolidityIcon },
   { name: "Web3.js", icon: Web3JSIcon },
   { name: "Truffle.js", icon: TruffleJSIcon },
   { name: "ApacheCordova", icon: CordovaIcon },

@@ -1,6 +1,6 @@
 footer {
   background-color: #f3d0f1;
-  padding: 25px 20px;
+  padding: 15px 20px;
 }
 
 footer .container {
@@ -50,23 +50,30 @@ footer p {
   margin-bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 609px) {
+  footer {
+    padding: 7.5px 10px; 
+  }
+
+  footer .container {
+    max-width: 480px;
+  }
+
   footer .col-md-6 {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
+    width: 100%; 
+    padding: 0;
   }
 
   footer .list-inline {
-    justify-content: center;
-    margin-top: 20px;
+    justify-content: center; 
+    font-size: 13px;
   }
 
   footer .list-inline-item {
     margin-left: 10px;
   }
 
-  footer .list-inline-item:first-child {
-    margin-left: 0;
+  footer p {
+    font-size: 14px; 
   }
 }

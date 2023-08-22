@@ -7,6 +7,7 @@ import ManualSwampIcon from "./assets/manualSwampIcon.png";
 import ScalabilityMountainIcon from "./assets/scalabilityMountainIcon.png";
 import MathRaceIcon from "./assets/mathRaceIcon.png";
 import VocabularyRaceIcon from "./assets/vocabularyRaceIcon.png";
+import MoonionsIcon from "./assets/moonionsIcon.png";
 import "./Games.css";
 
 const riskyJumperAppStoreLink =
@@ -16,6 +17,8 @@ const circleRiskAppStoreLink =
   "https://play.google.com/store/apps/details?id=com.pipcompany.circlerisk";
 
 const cloudQuest = "https://cloud-quest.io/";
+
+const moonionsURL = "https://twitter.com/_moonions";
 
 function AddGame({ type, link, icon, title, description, onClick }) {
   const handleClick = typeof onClick === "function" ? onClick : () => {};
@@ -47,6 +50,15 @@ function GamesPage() {
         <div className="browser">
           <h1 className="browser-title">For Browser</h1>
           <div className="games-container">
+            <AddGame
+              type="web-game"
+              link="none"
+              icon={MoonionsIcon}
+              title="Moonions"
+              description="In the process of making..."
+              onClick={() => window.open(moonionsURL, "_blank")}
+            />
+
             <AddGame
               type="web-game"
               link="none"

@@ -14,7 +14,7 @@ function MyNFTCollection() {
     <section className="my-nfts-collection-container">
       <div className="text-image-container">
         <div className="nfts-collection-text">
-          <p className="owner">{"My own NFT collection"}</p>
+          <p className="owner">{"NFT"}</p>
         </div>
         <div className="game-image">
           <img

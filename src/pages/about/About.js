@@ -1,14 +1,9 @@
 import Navbar from "../../components/navbar/Navbar";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faFacebook,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
 import "./About.css";
 import skillsInformation from "./skills";
 import GamesVideo from "../../components/games_video/Games_Video";
+import CV from "../../components/cv/CV";
+import Socials from "../../components/socials/Socials";
 import MyPhoto from "./assets/myPhoto.png";
 import HeaderElement from "./assets/headerElement.png";
 import headerElement2 from "./assets/headerElement2.png";
@@ -144,20 +139,7 @@ function AboutPage() {
           <span className="blue">success</span> in the competitive gaming
           industry.
         </h2>
-        <br />
-        <h1>
-          <span className="blue">Game can include:</span>
-        </h1>
-        <h2>
-          - animations
-          <br />
-          - sounds
-          <br />
-          - physics
-          <br />
-          - creative ideas
-          <br />- and more, depending on your request
-        </h2>
+
         <br />
         <br />
         <h1>
@@ -165,8 +147,6 @@ function AboutPage() {
           <br />
         </h1>
         <h2>
-          - competitive pricing
-          <br />
           - timely delivery
           <br />
           - smooth gameplay experience
@@ -180,40 +160,8 @@ function AboutPage() {
       <div className="games-video">
         <GamesVideo />
       </div>
-      <div className="contactAndMedia">
-        <h2>
-          <span className="blue">CONTACT</span>
-          <br />
-          <br />
-        </h2>
-        <h2 className="email">
-          przemek.murawski.developer@gmail.com
-          <br />
-        </h2>
-        <div className="social-icons">
-          <a
-            href="https://www.facebook.com/przemek.murawski.7"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faFacebook} />
-          </a>
-          <a
-            href="https://www.instagram.com/muran_98"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faInstagram} />
-          </a>
-          <a
-            href="https://www.github.com/PrzemoProgrammer"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-        </div>
-      </div>
+      <CV />
+      <Socials />
     </div>
   );
 }

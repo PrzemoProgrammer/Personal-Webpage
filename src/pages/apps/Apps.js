@@ -1,12 +1,12 @@
 import Navbar from "../../components/navbar/Navbar";
-import WeatherApp from "../../components/weatherApp/Section3";
+import Apps from "../../components/apps/Apps";
 import "./Apps.css";
 
 function AppsPage() {
   return (
-    <div className="apps-container">
+    <div className="apps-page">
       <Navbar />
-      <WeatherApp />
+      <Apps />
     </div>
   );
 }

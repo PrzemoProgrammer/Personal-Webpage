@@ -30,7 +30,7 @@ function Navbar() {
         <div className={`nav-items${menuOpen ? "-open" : ""}`}>
           <AddNavLink link="/" text="HOME" />
           <AddNavLink link="/Games" text="GAMES" />
-          <AddNavLink link="/Apps" text="APPS" />
+          <AddNavLink link="/AppsPage" text="APPS" />
           <AddNavLink link="/NFT" text="NFT" />
           <AddNavLink link="/About" text="ABOUT" />
         </div>
