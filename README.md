@@ -1,4 +1,4 @@
-Welcome my personal webpage 🙂
+Welcome to my personal webpage 🙂
 
 
 - It is created in 𝗥𝗲𝗮𝗰𝘁.𝗷𝘀
