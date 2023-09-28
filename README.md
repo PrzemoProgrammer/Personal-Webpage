@@ -12,3 +12,4 @@ Welcome to my personal webpage 🙂
 
 🌐 Link to webstie: https://muranwebsite.web.app/
 
+<img align="right" alt="coding" src="https://i.gifer.com/XVZN.gif">
