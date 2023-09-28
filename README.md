@@ -1,6 +1,4 @@
 
-
-<img align="right" alt="coding" src="https://media1.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif">
 Welcome to my personal webpage 🙂
 
 
